@@ -16,9 +16,12 @@ import react from './react.png';
 import csharp from './csharp.png';
 import javascript from './javascript.png';
 import mouse from './mouse.png';
+import visualstudio from './visualstudio.png';
+import java from './java.png';
 
 export const assets = {
     vscode,
+    visualstudio,
     firebase,
     figma,
     git,
@@ -36,6 +39,7 @@ export const assets = {
     csharp,
     javascript,
     mouse,
+    java,
 };
 
 export const workData = [
@@ -73,5 +77,5 @@ export const workData = [
 
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.figma, assets.git, assets.ssms, assets.net, assets.react, assets.csharp, assets.javascript
+    assets.vscode, assets.visualstudio, assets.firebase, assets.figma, assets.git, assets.ssms, assets.net, assets.react, assets.csharp, assets.javascript, assets.java,
 ];

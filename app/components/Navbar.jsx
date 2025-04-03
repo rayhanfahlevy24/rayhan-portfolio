@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50
+        <nav className={`w-full fixed h-20 lg:h-24 px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50
         ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
             <a href="#top">
                 <Image src={assets.rayhanlogo} alt="" className='w-28 cursor-pointer mr-14'/>
@@ -36,7 +36,7 @@ const Navbar = () => {
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 
             ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}`}>
-                <li><a className='font-Ovo' href="#home">Home</a></li>
+                <li><a className='font-Ovo' href="#top">Home</a></li>
                 <li><a className='font-Ovo' href="#about">About</a></li>
                 <li><a className='font-Ovo' href="#project">Project</a></li>
             </ul>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                 <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href="#about">About</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href="#work">Work</a></li>
+                <li><a className='font-Ovo' onClick={closeMenu} href="#project">Project</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact</a></li>
             </ul>
 
