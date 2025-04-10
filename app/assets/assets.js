@@ -44,6 +44,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Little Lemon',
+        description: 'Mobile App',
+        bgImage: '/littlelemon.jpg',
+        link: 'https://expo.dev/accounts/rayhanfahlevy24/projects/little-lemon/builds/325fc82a-9494-449a-a19d-e7a433e572d0',
+    },
+    {
         title: 'BMI Calculator',
         description: 'Mobile App',
         bgImage: '/BMI-Calculator.png',
