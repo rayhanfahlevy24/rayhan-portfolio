@@ -36,12 +36,12 @@ const Work = () => {
                 <h2 className="font-semibold">{project.title}</h2>
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
-              <div
+              {/* <div
                 className="border rounded-full border-black w-7 aspect-square flex items-center justify-center
               shadow-[2px_2px_0_#000] group-hover:bg-slate-200 transition"
               >
                 <Image src={assets.mouse} alt="send icon" className="w-4" />
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

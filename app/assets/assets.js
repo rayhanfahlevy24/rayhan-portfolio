@@ -44,6 +44,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Student Dropout & Success',
+        description: 'Dataset',
+        bgImage: '/student.jpg',
+        link: 'https://drive.google.com/file/d/1LEJwkUcY21HXdZLvhKmPy_MW7MARJjoe/view?usp=sharing',
+    },
+    {
         title: 'Little Lemon',
         description: 'Mobile App',
         bgImage: '/littlelemon.jpg',
