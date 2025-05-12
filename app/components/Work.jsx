@@ -17,7 +17,7 @@ const Work = () => {
   return (
     <div id="project" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center sm:mt-8 mb-2 text-lg font-Poppins">My Portfolio</h4>
-      <h2 className="text-center text-5xl font-Poppins">My latest work</h2>
+      <h2 className="text-center text-5xl font-Poppins">Latest work</h2>
 
       <div className="grid grid-cols-auto my-10 gap-5">
         {workData.slice(0, visibleProjects).map((project, index) => (
