@@ -11,7 +11,7 @@ const Header = () => {
           <h1 className="text-4xl sm:text-6xl lg:text-[66px] font-bold text-gray-900">
             I'm <span className="text-slate-400">Rayhan Fahlevy</span>
           </h1>
-          <p className="mt-4 text-lg max-w-[90%] sm:max-w-lg mx-auto sm:mx-0 font-Ovo text-justify"> 
+          <p className="mt-4 text-lg max-w-[90%] sm:max-w-lg mx-auto sm:mx-0 font-Poppins text-justify"> 
             I love transforming ideas into interactive digital experiences. With a solid foundation in web development,
             I create elegant, functional and user-friendly websites that drive user engagement. I am commited to continously
             learning and exploring new technologies to deliver innovative and effective solutions.
@@ -20,7 +20,7 @@ const Header = () => {
             <a 
               href="/CV-RayhanFahlevy.pdf" 
               download 
-              className="px-10 py-3 border-2 rounded-full border-gray-400 flex items-center gap-2 hover:bg-slate-200 transition"
+              className="font-Poppins font-medium px-10 py-3 border-2 rounded-full border-gray-400 flex items-center gap-2 hover:bg-slate-200 transition"
             >
               <Image src={assets.download_icon} alt="" className="w-4" />
               My Resume

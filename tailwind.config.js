@@ -1,3 +1,5 @@
+const { Poppins } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -16,8 +18,9 @@ module.exports = {
         darkTheme: '#11001F',
       },
       fontFamily: {
-        Outfit: ["Outfit", "sans-serif"],
-        Ovo: ["Ovo", "serif"]
+        // Outfit: ["Outfit", "sans-serif"],
+        // Ovo: ["Ovo", "serif"],
+        Poppins: ["Poppins"],
       },
       boxShadow: {
         'black' : '4px 4px 0 #000',

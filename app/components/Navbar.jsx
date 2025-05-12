@@ -36,15 +36,15 @@ const Navbar = () => {
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 
             ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}`}>
-                <li><a className='font-Ovo' href="#top">Home</a></li>
-                <li><a className='font-Ovo' href="#about">About</a></li>
-                <li><a className='font-Ovo' href="#project">Project</a></li>
+                <li><a className='font-Poppins font-medium' href="#top">Home</a></li>
+                <li><a className='font-Poppins font-medium' href="#about">About</a></li>
+                <li><a className='font-Poppins font-medium' href="#project">Project</a></li>
             </ul>
 
             <div className='flex items-center gap-4'>
 
                 <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border-2 border-gray-400
-                rounded-full ml-4 font-Ovo hover:bg-slate-200 transition'>Contact <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
+                rounded-full ml-4 font-Poppins font-medium hover:bg-slate-200 transition'>Contact <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
 
                 <button className='block md:hidden ml-3' onClick={openMenu}>
                     <Image src={assets.menu_black} alt='' className='w-6'/>
