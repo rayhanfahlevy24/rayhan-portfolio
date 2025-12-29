@@ -18,7 +18,7 @@ const Header = () => {
           </p>
           <div className="mt-6 flex justify-center sm:justify-start">
             <a 
-              href="/CV - RayhanFahlevy.pdf" 
+              href="/CV - Rayhan Fahlevy.pdf" 
               download 
               className="font-Poppins font-medium px-10 py-3 border-2 rounded-full border-gray-400 flex items-center gap-2 hover:bg-slate-200 transition"
             >
